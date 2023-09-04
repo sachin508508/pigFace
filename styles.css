@@ -159,3 +159,7 @@ img{position: relative;
     top: 400px;
     left: 530px
 }
+.face:hover{
+    transform: scale(1.3,1.3);
+    transition-duration: 1s;
+}
