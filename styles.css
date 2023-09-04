@@ -1,0 +1,157 @@
+h1{
+    color: purple;
+    text-align: center;
+}
+h2{
+    position: relative;
+    top: 450px;
+}
+body{
+    background: url(pig1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.face{
+    background-color: rgb(244, 164, 190);
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50% 50% 45% 45%;
+    top: 200px;
+    left: 450px;
+}
+.ear1{
+    background-color: rgb(244, 164, 190);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: -1;
+    border-radius: 4px 50px;
+
+}
+.earlayer1{
+    background-color: rgb(224, 91, 140);
+    height: 80px;
+    width: 80px;
+    position: relative;
+    z-index: -1;
+    border-radius: 4% 60px;
+    top: 15px;
+    left: 15px;
+    
+}
+.ear2{
+    background-color: rgb(244, 164, 190);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+    z-index:-1;
+    
+    border-radius: 50px 4px;
+}
+.earlayer2{
+    background-color: rgb(224, 91, 140);
+    height: 80px;
+    width: 80px;
+    position: relative;
+    z-index:-1;
+    top: 15px;
+
+    border-radius: 60px 4%;
+}
+
+.eyeouterlayer1{
+background-color: rgb(252, 250, 250);
+border-radius: 50% 50% 50% 50%;
+height: 50px;
+width: 40px;
+position: relative;
+left: 100px;
+bottom: 130px;
+}
+.eyeouterlayer2{
+    background-color: rgb(250, 252, 250);
+    border-radius: 50% 50% 50% 50%;
+    height: 50px;
+    width: 40px;
+    position: relative;
+    left: 250px;
+    bottom: 180px;
+    }
+.eyemiddlelayer1{
+    background-color: black;
+    height: 46px;
+    width: 36px;
+    position: relative;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+
+}
+.eyeinnerlayer1{
+    background-color: aliceblue;
+    height: 10px;
+    width: 17px;
+    position: relative;
+    border-radius: 100% 50%;
+    top: 4px;
+    left: 6px;
+}
+.nose{
+    background-color: rgb(224, 91, 140);
+    height: 90px;
+    width: 140px;
+    position: relative;
+    border-radius: 45%;
+    bottom: 170px;
+    left: 130px;
+
+
+}
+.nose1{
+    background-color: rgb(3, 2, 3);
+    height: 30px;
+    width: 15px;
+    position: relative;
+    border-radius:  50% 25% 25% 50%;
+    top: 30px;
+    left: 35px;
+}
+.nose2{
+    background-color: rgb(3, 2, 3);
+    height: 30px;
+    width: 15px;
+    position: relative;
+    border-radius:  25% 50% 50% 25%;
+    left: 85px;
+
+}
+.mouth{
+    border-bottom: 8px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 15px;
+    position: relative;
+    bottom: 170px;
+    left: 181px;
+
+}
+.bouncing {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0); 
+    }
+    100% {
+        transform: translateY(-150px); 
+    }
+}
