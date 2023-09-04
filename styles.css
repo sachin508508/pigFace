@@ -2,12 +2,9 @@ h1{
     color: purple;
     text-align: center;
 }
-h2{
-    position: relative;
-    top: 450px;
-}
 body{
-    background: url(pig1.jpg);
+    background: url(bg2.avif);
+    position: absolute;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -154,4 +151,11 @@ bottom: 130px;
     100% {
         transform: translateY(-150px); 
     }
+}
+img{position: relative;
+    width: 600px;
+    height: 200px;
+    z-index: -5;
+    top: 370px;
+    left: 330px
 }
