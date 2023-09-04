@@ -3,7 +3,7 @@ h1{
     text-align: center;
 }
 body{
-    background: url(bg2.avif);
+    background: url(sky-with-clouds.jpg);
     position: absolute;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body{
     position: absolute;
     border-radius: 50% 50% 45% 45%;
     top: 200px;
-    left: 450px;
+    left: 630px;
 }
 .ear1{
     background-color: rgb(244, 164, 190);
@@ -146,7 +146,7 @@ bottom: 130px;
 
 @keyframes bounce {
     0% {
-        transform: translateY(0); 
+        transform: translateY(130px); 
     }
     100% {
         transform: translateY(-150px); 
@@ -154,8 +154,8 @@ bottom: 130px;
 }
 img{position: relative;
     width: 600px;
-    height: 200px;
+    height: 350px;
     z-index: -5;
-    top: 370px;
-    left: 330px
+    top: 400px;
+    left: 530px
 }
